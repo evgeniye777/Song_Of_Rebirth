@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/forkeyfragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/forkeyfragment"
+            android:background="@drawable/keystyle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/й"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="й"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ц"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ц"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/у"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="у"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/к"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="к"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/е"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="е"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/н"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="н"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/г"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="г"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ш"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ш"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/щ"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="щ"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/з"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="з"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/х"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="х"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ф"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ф"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ы"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ы"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/в"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="в"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/а"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="а"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/п"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="п"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/р"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="р"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/о"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="о"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/л"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="л"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/д"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="д"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ж"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ж"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/э"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="э"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/я"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="я"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ч"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ч"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/с"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="с"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/м"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="м"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/и"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="и"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/т"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="т"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ь"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ь"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/б"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="б"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ю"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ю"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ә"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ә"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ө"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ө"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ү"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ү"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/җ"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="җ"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/ң"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="ң"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/һ"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="һ"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/FS"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="!.)"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/EN"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="72dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text="EN&amp;123"
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/RegL"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/mybutton">
+
+                    <Button
+                        android:id="@+id/Reg"
+                        style="@android:style/Widget.Material.Button.Borderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/regimagelite"
+                        android:text=""
+                        android:textAllCaps="false"
+                        android:textSize="17dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/pro"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mybutton"
+                    android:text=" "
+                    android:textAllCaps="false"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:id="@+id/delL"
+                    android:layout_width="43dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/mybutton">
+
+                    <Button
+                        android:id="@+id/del"
+                        style="@android:style/Widget.Material.Button.Borderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignEnd="@+id/forkeyfragment"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delbutlite"
+                        android:textAllCaps="false"
+                        android:textSize="17dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

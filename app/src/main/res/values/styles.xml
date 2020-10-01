@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#46A6F5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="editTextColor">@color/black</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="AppTheme2" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#151616</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/blacckS</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="editTextColor">@color/white</item>
+        <item name="android:itemBackground">@color/blacckS</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenmen</item>
+        <item name="colorPrimaryDark">@color/greenPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/greenwin</item>
+        <item name="android:textColor">@color/textgreen</item>
+        <item name="editTextColor">@color/textgreen</item>
+        <item name="android:itemBackground">@color/greenwin</item>
+        <item name="android:navigationBarColor">@color/greenmen</item>
+        <item name="android:textColorPrimary">@color/textgreen</item>
+    </style>
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Yellowmen</item>
+        <item name="colorPrimaryDark">@color/YellowPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/Yellowwin</item>
+        <item name="android:textColor">@color/textYellow</item>
+        <item name="editTextColor">@color/textYellow</item>
+        <item name="android:itemBackground">@color/Yellowwin</item>
+        <item name="android:navigationBarColor">@color/Yellowmen</item>
+        <item name="android:textColorPrimary">@color/textYellow</item>
+    </style>
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Pinkmen</item>
+        <item name="colorPrimaryDark">@color/PinkPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/Pinkwin</item>
+        <item name="android:textColor">@color/textPink</item>
+        <item name="editTextColor">@color/textPink</item>
+        <item name="android:itemBackground">@color/Pinkwin</item>
+        <item name="android:navigationBarColor">@color/Pinkmen</item>
+        <item name="android:textColorPrimary">@color/textPink</item>
+    </style>
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blymen</item>
+        <item name="colorPrimaryDark">@color/blyPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/blywin</item>
+        <item name="android:textColor">@color/textbly</item>
+        <item name="editTextColor">@color/textbly</item>
+        <item name="android:itemBackground">@color/blywin</item>
+        <item name="android:navigationBarColor">@color/blymen</item>
+        <item name="android:textColorPrimary">@color/textbly</item>
+    </style>
+    <style name="AppTheme7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Parplemen</item>
+        <item name="colorPrimaryDark">@color/ParplewPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/Parplewin</item>
+        <item name="android:textColor">@color/textParple</item>
+        <item name="editTextColor">@color/textParple</item>
+        <item name="android:itemBackground">@color/Parplewin</item>
+        <item name="android:navigationBarColor">@color/Parplemen</item>
+        <item name="android:textColorPrimary">@color/textParple</item>
+    </style>
+    <style name="AppTheme8" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blydarkmen</item>
+        <item name="colorPrimaryDark">@color/blydarkPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/blydarkwin</item>
+        <item name="android:textColor">@color/textblydark</item>
+        <item name="editTextColor">@color/textblydark</item>
+        <item name="android:itemBackground">@color/blydarkwin</item>
+        <item name="android:navigationBarColor">@color/blydarkmen</item>
+        <item name="android:textColorPrimary">@color/textblydark</item>
+    </style>
+    <style name="AppTheme9" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brownmen</item>
+        <item name="colorPrimaryDark">@color/brownPr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/brownwin</item>
+        <item name="android:textColor">@color/textbrown</item>
+        <item name="editTextColor">@color/textbrown</item>
+        <item name="android:itemBackground">@color/brownwin</item>
+        <item name="android:navigationBarColor">@color/brownmen</item>
+        <item name="android:textColorPrimary">@color/textbrown</item>
+    </style>
+    <style name="AppTheme10" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orangemen</item>
+        <item name="colorPrimaryDark">@color/orangePr</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/orangewin</item>
+        <item name="android:textColor">@color/textorange</item>
+        <item name="editTextColor">@color/textorange</item>
+        <item name="android:itemBackground">@color/orangewin</item>
+        <item name="android:navigationBarColor">@color/orangemen</item>
+        <item name="android:textColorPrimary">@color/textorange</item>
+    </style>
+</resources>
